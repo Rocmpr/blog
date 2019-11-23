@@ -1,0 +1,48 @@
+// Colors
+$default-color: #292929;
+$default-shade: #292929;
+$default-tint: #aaa;
+$grey-1: #979797;
+$grey-2: #bc4e4a;
+$grey-3: #f9f9f9;
+$white: #fff;
+$blue: #4a9ae1;
+$shadow-color: rgba(0, 0, 0, .2);
+$code-color: #bf616a;
+
+// Fonts
+@font-face {
+    font-family: 'League Spartan';
+    src: url('../fonts/leaguespartan-bold.eot');
+    src: url('../fonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguespartan-bold.woff2') format('woff2'),
+         url('../fonts/leaguespartan-bold.woff') format('woff'),
+         url('../fonts/leaguespartan-bold.ttf') format('truetype'),
+         url('../fonts/leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Collegiate';
+    src:url('../fonts/Collegiate.ttf.woff') format('woff'),
+        url('../fonts/Collegiate.ttf.svg#Collegiate') format('svg'),
+        url('../fonts/Collegiate.ttf.eot'),
+        url('../fonts/Collegiate.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+$monospaced: Menlo, Monaco, monospace;
+
+@mixin box-sizing($type: border-box) {
+  -webkit-box-sizing: $type;
+     -moz-box-sizing: $type;
+          box-sizing: $type;
+}
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+     -moz-transition: $args;
+          transition: $args;
+}
