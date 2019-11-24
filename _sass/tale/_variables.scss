@@ -13,22 +13,22 @@ $code-color: #bf616a;
 // Fonts
 @font-face {
     font-family: 'League Spartan';
-    src: url('../fonts/leaguespartan-bold.eot');
-    src: url('../fonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/leaguespartan-bold.woff2') format('woff2'),
-         url('../fonts/leaguespartan-bold.woff') format('woff'),
-         url('../fonts/leaguespartan-bold.ttf') format('truetype'),
-         url('../fonts/leaguespartan-bold.svg#league_spartanbold') format('svg');
+    src: url('../assets/fonts/leaguespartan-bold.eot');
+    src: url('../assets/fonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/leaguespartan-bold.woff2') format('woff2'),
+         url('../assets/fonts/leaguespartan-bold.woff') format('woff'),
+         url('../assets/fonts/leaguespartan-bold.ttf') format('truetype'),
+         url('../assets/fonts/leaguespartan-bold.svg#league_spartanbold') format('svg');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Collegiate';
-    src:url('../fonts/Collegiate.ttf.woff') format('woff'),
-        url('../fonts/Collegiate.ttf.svg#Collegiate') format('svg'),
-        url('../fonts/Collegiate.ttf.eot'),
-        url('../fonts/Collegiate.ttf.eot?#iefix') format('embedded-opentype'); 
+    src:url('../assets/fonts/Collegiate.ttf.woff') format('woff'),
+        url('../assets/fonts/Collegiate.ttf.svg#Collegiate') format('svg'),
+        url('../assets/fonts/Collegiate.ttf.eot'),
+        url('../assets/fonts/Collegiate.ttf.eot?#iefix') format('embedded-opentype'); 
     font-weight: normal;
     font-style: normal;
 }
