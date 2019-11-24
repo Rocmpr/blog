@@ -15,10 +15,10 @@ Según el tipo de proyecto a gestionar, se pueden usar unos métodos u otros par
 Con independencia del enfoque utilizado, Agile ofrece una serie de herramientas o artefactos dirigidos a la normalización de requerimientos y características. Si se observa con detenimiento el ciclo de vida del desarrollo de software, es posible determinar cuáles de estos artefactos encajan en el marco de trabajo elegido.
 
 ### Desarrollo mediante características
-    Se toman requisitos por cada característica
-    Se desarrollan características de forma independiente pero ordenada
-    Las características se testean por separado
-    Se despliegan conjuntos de características
+`Se toman requisitos por cada característica`
+`Se desarrollan características de forma independiente pero ordenada`
+`Las características se testean por separado`
+`Se despliegan conjuntos de características`
 
 ### Integración continua
     Se toman requisitos para una versión inicial
