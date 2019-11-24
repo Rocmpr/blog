@@ -77,3 +77,21 @@ img {
 td {
   vertical-align: top;
 }
+
+g circle {
+  stroke-dasharray: 700;
+  stroke-dashoffset: 700;
+  stroke-linecap: butt;
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
+  -ms-transition: all 2s ease-out;
+  -o-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+g:hover circle {
+  fill: #000;
+  color:#f6f3ea;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 700;
+  stroke-width: 10;
+}
