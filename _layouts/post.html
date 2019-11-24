@@ -3,20 +3,6 @@ layout: default
 ---
 
 <div class="post">
-  <div class="post-info">
-    <span>Written by</span>
-    {% if page.author %}
-        {{ page.author }}
-    {% else %}
-        {{ site.author.name }}
-    {% endif %}
-
-    {% if page.date %}
-      <br>
-      <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
-    {% endif %}
-  </div>
-
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-line"></div>
 
@@ -34,6 +20,20 @@ layout: default
   {% if page.previous.url %}
     <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
   {% endif %}
+  
+  <div class="post-info">
+    <span>Written by</span>
+    {% if page.author %}
+        {{ page.author }}
+    {% else %}
+        {{ site.author.name }}
+    {% endif %}
 
-  <a href="#" class="top">Top</a>
+    {% if page.date %}
+      <br>
+      <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
+    {% endif %}
+  </div>
+
+  <a href="#" class="top">^</a>
 </div>
