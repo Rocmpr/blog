@@ -35,6 +35,7 @@ footer,
     &:hover,
     &:focus {
       opacity: .6;
+    cursor: url(../assets/img/curlink.png), auto;
     }
   }
 
@@ -59,12 +60,17 @@ footer,
     &:hover,
     &:focus {
       opacity: 1;
+      cursor: url(../assets/img/curlink.png), auto;
     }
   }
 
   a {
     color: $default-color;
     font-family: 'Collegiate';
+  }
+  a:hover{
+    text-decoration:none;
+    cursor: url(../assets/img/curlink.png), auto;
   }
 }
 
