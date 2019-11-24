@@ -15,16 +15,16 @@ Según el tipo de proyecto a gestionar, se pueden usar unos métodos u otros par
 Con independencia del enfoque utilizado, Agile ofrece una serie de herramientas o artefactos dirigidos a la normalización de requerimientos y características. Si se observa con detenimiento el ciclo de vida del desarrollo de software, es posible determinar cuáles de estos artefactos encajan en el marco de trabajo elegido.
 
 ### Desarrollo mediante características
-1. `Se toman requisitos por cada característica`
-2. `Se desarrollan características de forma independiente pero ordenada`
-3. `Las características se testean por separado`
-4. `Se despliegan conjuntos de características`
+1. Se toman requisitos por cada característica.
+2. Se desarrollan características de forma independiente pero ordenada.
+3. Las características se testean por separado.
+4. Se despliegan conjuntos de características.
 
 ### Integración continua
-1. `Se toman requisitos para una versión inicial`
-2. `Se desarrolla una versión inicial completamente funcional`
-3. `Se testea cada versión funcional`
-4. `Se despliega cada versión funcional`
+1. Se toman requisitos para una versión inicial.
+2. Se desarrolla una versión inicial completamente funcional.
+3. Se testea cada versión funcional.
+4. Se despliega cada versión funcional.
 
 Algo que comparten todos los marcos de desarrollo, es que las versiones evolucionan añadiendo correcciones y nuevas características. Aquí es dónde se encuentra la verdadera batalla de los desarrolladores. Ya que el aumento de características va ligado a un aumento de la hediondez y por tanto, a un aumento de la complejidad. Entendiendo complejidad por dificultad técnica, no de tiempos o esfuerzos.
 
@@ -40,3 +40,21 @@ Básicamente, una toma de requisitos ha de contemplar las siguientes operaciones
 * Redacción de requerimientos funcionales.
 
 Los requerimientos o especificaciones de desarrollo se convierten a veces en un torrente difícil de canalizar. Para dirigirlos correctamente hacia un flujo de trabajo auto-organizado, se necesita una rápida respuesta de desarrollo y aligerar el peso de la documentación.
+
+# Planificación
+
+Por regla general, las planificaciones y las grandes especificaciones iniciales de los proyectos, suelen producir gran cantidad de residuos que se traducen en una merma económica y técnica. Por esto, desde una visión Agile se considera de gran importancia el llamado salto de fe inicial, lo que significa que al inicio de un proyecto de desarrollo, se ha de desviar el foco de atención hacia el logro de mayor importancia. Esto puede traducirse como la búsqueda de mejores definiciones de los requerimientos o todo lo contrario, la del aseguramiento de la arquitectura para el entorno de despliegue deseado.
+
+Por otro lado, cabe destacar que toda planificación ha de reflejar, no sólo los tiempos de operación, sino también los de testeo y entrega. Y además, el equipo debe mantener un calendario de reuniones activo, una práctica que aporta salubridad al proyecto.
+
+# Desarrollo
+
+El ciclo de vida de las metodologías ágiles de desarrollo tiene un carácter repetitivo, iterativo e incremental. Mediante prácticas como Scrum, Kanban, Lean o XP, se facilita el desarrollo de funcionalidades que son añadidas al producto durante repeticiones cortas, pero efectivas.
+
+Scrum. Es un marco de trabajo (Sutherland-Schwaber)23 pensado para entornos que necesitan mejorar su rendimiento o intervenir gran cantidad de procesos. Funciona liberando pequeños incrementos del producto dentro de unos tiempos muy marcados. Para ello, establece una cultura de roles y fomenta reuniones semanales para la puesta en común de las tareas y la revisión continua de los desarrollos.
+
+Kanban. Es un método de origen japonés (Ohno-Anderson)45 basado en el principio de la entrega a tiempo. En la práctica, trata de reducir el trabajo en curso (WIP) desarrollando prioritariamente las funcionalidades requeridas y sin incurrir en el desperdicio de la multitarea. Para la gestión de su ciclo de vida se ayuda de un tablero cartas (de ahí su nombre), que representan el producto a desarrollar. Cada incremento consume cartas del tablero, que son repuestas con nuevos requerimientos. Se crea así un sistema de demanda que funciona en entornos bien organizados.
+
+Lean. Adaptación occidental (Poppendieck)6 al campo del desarrollo de software, del modelo japonés de gestión del conocimiento (Nonaka-Takeuchi)7, que aboga por la reducción constante de los residuos, el desarrollo de lo estrictamente útil y la mejora constante del flujo productivo. Lean plantea un ciclo de vida basado en el principio del mínimo viable, que se refiere a la entrega de versiones tan pronto como sea posible, dejando para un momento posterior la escritura de cualquier documentación o la adquisición de compromisos vinculantes sobre cuestiones arquitectónicas.
+
+XP. Extreme programming (Beck)8 es un método que prima la adaptabilidad sobre todo. En la práctica, asume la variabilidad de los requerimientos y la ineludible existencia de errores, por lo que no presta atención a la documentación previa. En cambio, utiliza ciclos cortos de desarrollo y pruebas de aceptación, que van completando funcionalidades de manera continua. Promueve la programación entre pares, valorando la calidad del código escrito, por encima de la inmediata afectación a la productividad.
