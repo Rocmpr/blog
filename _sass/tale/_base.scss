@@ -26,12 +26,14 @@ html {
 
 body {
   -webkit-text-size-adjust: 100%;
+   cursor: url(../assets/img/cur.png), auto;
 }
 
 h1{
     color: $default-shade;
   font-family: 'League Spartan';
   line-height: normal;
+   cursor: url(../assets/img/cur.png), auto;
 }
 h2,
 h3,
@@ -41,11 +43,13 @@ h6 {
   color: $default-shade;
   font-family: 'Collegiate';
   line-height: normal;
+   cursor: url(../assets/img/cur.png), auto;
 }
 
 a {
-  color: $blue;
+  color: $red;
   text-decoration: none;
+   cursor: url(../assets/img/curlink.png), auto;
 }
 
 blockquote {
@@ -53,6 +57,7 @@ blockquote {
   color: $grey-1;
   margin: .8rem 0;
   padding: .5rem 1rem;
+   cursor: url(../assets/img/cur.png), auto;
 
   p:last-child {
     margin-bottom: 0;
