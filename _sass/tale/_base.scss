@@ -27,6 +27,8 @@ body {
    cursor: url(../assets/img/cur.png), auto;
 }
 
+::selection{background-color: #f9f9f9;}
+
 h1{
     color: $default-shade;
   font-family: 'League Spartan';
