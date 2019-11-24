@@ -15,16 +15,16 @@ Según el tipo de proyecto a gestionar, se pueden usar unos métodos u otros par
 Con independencia del enfoque utilizado, Agile ofrece una serie de herramientas o artefactos dirigidos a la normalización de requerimientos y características. Si se observa con detenimiento el ciclo de vida del desarrollo de software, es posible determinar cuáles de estos artefactos encajan en el marco de trabajo elegido.
 
 ### Desarrollo mediante características
-`Se toman requisitos por cada característica`
-`Se desarrollan características de forma independiente pero ordenada`
-`Las características se testean por separado`
-`Se despliegan conjuntos de características`
+1. `Se toman requisitos por cada característica`
+2. `Se desarrollan características de forma independiente pero ordenada`
+3. `Las características se testean por separado`
+4. `Se despliegan conjuntos de características`
 
 ### Integración continua
-    Se toman requisitos para una versión inicial
-    Se desarrolla una versión inicial completamente funcional.
-    Se testea cada versión funcional
-    Se despliega cada versión funcional
+1. `Se toman requisitos para una versión inicial`
+2. `Se desarrolla una versión inicial completamente funcional`
+3. `Se testea cada versión funcional`
+4. `Se despliega cada versión funcional`
 
 Algo que comparten todos los marcos de desarrollo, es que las versiones evolucionan añadiendo correcciones y nuevas características. Aquí es dónde se encuentra la verdadera batalla de los desarrolladores. Ya que el aumento de características va ligado a un aumento de la hediondez y por tanto, a un aumento de la complejidad. Entendiendo complejidad por dificultad técnica, no de tiempos o esfuerzos.
 
@@ -35,8 +35,8 @@ La toma de requisitos es parte vertebral de cualquier proyecto de desarrollo de 
 
 Básicamente, una toma de requisitos ha de contemplar las siguientes operaciones:
 
-    Entrevistas con los interesados.
-    Redacción de restricciones del proyecto.
-    Redacción de requerimientos funcionales.
+* Entrevistas con los interesados.
+* Redacción de restricciones del proyecto.
+* Redacción de requerimientos funcionales.
 
 Los requerimientos o especificaciones de desarrollo se convierten a veces en un torrente difícil de canalizar. Para dirigirlos correctamente hacia un flujo de trabajo auto-organizado, se necesita una rápida respuesta de desarrollo y aligerar el peso de la documentación.
