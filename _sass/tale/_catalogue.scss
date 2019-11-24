@@ -4,6 +4,7 @@
     color: $default-color;
     display: block;
     padding: 2rem 0;
+    cursor: url(../assets/img/cur.png), auto;
 
     &:hover .catalogue-line,
     &:focus .catalogue-line {
