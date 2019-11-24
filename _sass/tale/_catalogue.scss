@@ -8,6 +8,7 @@
     &:hover .catalogue-line,
     &:focus .catalogue-line {
       width: 5rem;
+      cursor: url(../assets/img/cur.png), auto;
     }
 
     &:last-child {
