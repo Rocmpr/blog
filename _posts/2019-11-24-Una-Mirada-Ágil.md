@@ -58,3 +58,34 @@ El ciclo de vida de las metodologías ágiles de desarrollo tiene un carácter r
 `Lean.` Adaptación occidental (<a href="https://procognita.com/post/mary-poppendieck-four-metaphors-of-lean-403/" target="_blank">Poppendieck</a>) al campo del desarrollo de software, del modelo japonés de gestión del conocimiento (<a href="https://es.wikibooks.org/wiki/Gesti%C3%B3n_del_conocimiento/Modelo_de_creaci%C3%B3n_del_Conocimiento/Teor%C3%ADa_de_creaci%C3%B3n_de_conocimiento_por_Nonaka_y_Takeuchi" target="_blank">Nonaka-Takeuchi</a>), que aboga por la reducción constante de los residuos, el desarrollo de lo estrictamente útil y la mejora constante del flujo productivo. Lean plantea un ciclo de vida basado en el principio del mínimo viable, que se refiere a la entrega de versiones tan pronto como sea posible, dejando para un momento posterior la escritura de cualquier documentación o la adquisición de compromisos vinculantes sobre cuestiones arquitectónicas.
 
 `XP.` Extreme programming (<a href="https://es.wikipedia.org/wiki/Kent_Beck" target="_blank">Beck</a>) es un método que prima la adaptabilidad sobre todo. En la práctica, asume la variabilidad de los requerimientos y la ineludible existencia de errores, por lo que no presta atención a la documentación previa. En cambio, utiliza ciclos cortos de desarrollo y pruebas de aceptación, que van completando funcionalidades de manera continua. Promueve la programación entre pares, valorando la calidad del código escrito, por encima de la inmediata afectación a la productividad.
+
+# Pruebas
+
+Agile promueve una cultura de testeo, donde cada iteración pasa por un ciclo de prueba unitaria y cada entrega supera una fase de aceptación por parte del cliente. Sea cual sea el modelo de gestión, las distintas fases de testeo siempre tienen por objeto la corrección de todos los errores y la aceptación de las funcionalidades desarrolladas. Todo para tratar de conseguir un producto lo más robusto posible, en el menor tiempo posible.
+
+# Despliegue
+
+Este es el punto crítico de todo desarrollo, ya que la implantación en un cliente supone la mayoría de las veces, añadir restricciones al sistema. Estas restricciones producen nuevos evolutivos que, a veces generan sobrecostes. Por tanto, para salvar posibles cuellos de botella durante las operaciones de despliegue, conviene la práctica de metodologías como DevOps (<a href="https://es.wikipedia.org/wiki/DevOps" target="_blank">Wasna-Debois</a>), que posibilitan el entendimiento de los desarrolladores con los administradores de IT. Punto crucial para un desarrollo más productivo, ya que conseguir una infraestructura ágil donde desplegar el software con garantías de calidad y tiempo, libera más horas para la programación.
+
+# Mantenimiento
+
+Las operaciones de mantenimiento del software comienzan tras el paso a producción del producto, con el objetivo de alargar la vida útil de las aplicaciones. Agile distingue entre:
+
+`Mantenimiento Predictivo.` Es el que mejora el producto de manera planificada, adelantándose a los problemas de seguridad y/o funcionalidad que puedan surgir. Integra perfecciones en el sistema como resultado de una cultura de respuesta.
+
+`Mantenimiento Adaptativo.` Las modificaciones correctivas y evolutivas llegan a demanda, como consecuencia del reporte de incidencias o la solicitud de mejora del cliente.
+
+# Conclusiones
+
+Como filosofía de desarrollo de software, Agile impulsa el estudio de metodologías de trabajo aplicables a sus distintas fases: toma de requisitos, planificación, desarrollo, pruebas, despliegue y mantenimiento. La aplicación de estas metodologías implica la adopción de sus prácticas y el uso de sus artefactos, para diseñar un marco de gestión de proyectos a medida.
+
+Una forma ágil de afrontar la gestión de un proyecto de desarrollo de software sería la siguiente:
+
+* Elegir el enfoque de gestión adecuado a nuestro proyecto.
+* Realizar una planificación inicial abierta.
+* Determinar acertadamente el alcance de los requisitos a tomar.
+* Asegurar desde el principio el entorno de despliegue.
+* Decidir sobre la metodología de desarrollo a seguir.
+* Completar pruebas en cada iteración.
+* Diseñar y ejecutar las operaciones de despliegue de manera correcta.
+* Decidir la operativa para el sostenimiento de la vida útil del producto.
