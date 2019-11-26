@@ -9,7 +9,6 @@ layout: default
   {{ content }}
   
     <div class="post-info">
-    <span>Written by</span>
     {% if page.author %}
         {{ page.author }}
     {% else %}
@@ -18,7 +17,6 @@ layout: default
 
     {% if page.date %}
       <br>
-      <span>on&nbsp;</span>
       <!-- Whitespace added for readability -->
       {% assign m = page.date | date: "%-m" %}
       {% case m %}
@@ -35,7 +33,7 @@ layout: default
         {% when '11' %}Nov
         {% when '12' %}Dec
       {% endcase %}
-      <time datetime="{{ page.date }}">{{ page.date | date: "%Y" }}</time>
+      <time datetime="{{ page.date }}">{{ page.date | date: "%-m %Y" }}</time>
  
       
     {% endif %}
