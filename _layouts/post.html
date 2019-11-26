@@ -21,7 +21,6 @@ layout: default
       <span>on&nbsp;</span>
       <!-- Whitespace added for readability -->
       {% assign m = page.date | date: "%-m" %}
-      {{ page.date | date: "%-d" }}
       {% case m %}
         {% when '1' %}Ene
         {% when '2' %}Feb
@@ -36,8 +35,7 @@ layout: default
         {% when '11' %}Nov
         {% when '12' %}Dec
       {% endcase %}
-      {{ page.date | date: "%Y" }}
-      <time datetime="{{ page.date }}">{{ page.date | date: "%b %Y" }}</time>
+      <time datetime="{{ page.date }}">{{ page.date | date: "%-m %Y" }}</time>
  
       
     {% endif %}
