@@ -1,7 +1,7 @@
 ﻿# Site settings
 title:          "A .Net Apart"
 description:    "a simple blog"
-baseurl:        "/blog"
+baseurl:        "/blog_desarrollo"
 url:            "https://rocmpr.github.io"
 
 # Google Analytics
@@ -28,13 +28,11 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-archives
   # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
 paginate:       5
-permalink: /:categories/:title/
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
