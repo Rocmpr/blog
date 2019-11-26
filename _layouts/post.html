@@ -18,7 +18,27 @@ layout: default
 
     {% if page.date %}
       <br>
-      <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%b %Y" }}</time>
+      <span>on&nbsp;</span>
+      <!-- Whitespace added for readability -->
+      {% assign m = page.date | date: "%-m" %}
+      {{ page.date | date: "%-d" }}
+      {% case m %}
+        {% when '1' %}Ene
+        {% when '2' %}Feb
+        {% when '3' %}Mar
+        {% when '4' %}Abr
+        {% when '5' %}May
+        {% when '6' %}Jun
+        {% when '7' %}Jul
+        {% when '8' %}Ago
+        {% when '9' %}Sep
+        {% when '10' %}Oct
+        {% when '11' %}Nov
+        {% when '12' %}Dec
+      {% endcase %}
+      <time datetime="{{ page.date }}">{{ page.date | date: "%b %Y" }}</time>
+ 
+      
     {% endif %}
   </div>
   
@@ -38,3 +58,4 @@ layout: default
   
   <a href="#" class="top">^</a>
 </div>
+
