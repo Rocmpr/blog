@@ -36,6 +36,7 @@ layout: default
         {% when '11' %}Nov
         {% when '12' %}Dec
       {% endcase %}
+      {{ page.date | date: "%Y" }}
       <time datetime="{{ page.date }}">{{ page.date | date: "%b %Y" }}</time>
  
       
