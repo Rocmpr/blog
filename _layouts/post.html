@@ -9,7 +9,7 @@ layout: default
   {{ content }}
   
   <br>
-  
+
     <div class="post-info">
 <!--     {% if page.author %}
         {{ page.author }}
@@ -19,23 +19,27 @@ layout: default
 
     {% if page.date %}
       <br>
-      <!-- Whitespace added for readability -->
-      {% assign m = page.date | date: "%-m" %}
-      {% case m %}
-        {% when '1' %}Ene
-        {% when '2' %}Feb
-        {% when '3' %}Mar
-        {% when '4' %}Abr
-        {% when '5' %}May
-        {% when '6' %}Jun
-        {% when '7' %}Jul
-        {% when '8' %}Ago
-        {% when '9' %}Sep
-        {% when '10' %}Oct
-        {% when '11' %}Nov
-        {% when '12' %}Dec
-      {% endcase %}
-      <time datetime="{{ page.date }}">{{ page.date | date: "%m %Y" }}</time>
+
+      <time datetime="{{ page.date }}">
+	     <!-- Whitespace added for readability -->
+		{% assign m = page.date | date: "%-m" %}
+		{{ page.date | date: "%-d" }}
+		{% case m %}
+		  {% when '1' %}Januar
+		  {% when '2' %}Februar
+		  {% when '3' %}M&auml;rz
+		  {% when '4' %}April
+		  {% when '5' %}Mai
+		  {% when '6' %}Juni
+		  {% when '7' %}Juli
+		  {% when '8' %}August
+		  {% when '9' %}September
+		  {% when '10' %}Oktober
+		  {% when '11' %}November
+		  {% when '12' %}Dezember
+		{% endcase %}
+		{{ page.date | date: "%Y" }}
+      </time>
  
       
     {% endif %}
