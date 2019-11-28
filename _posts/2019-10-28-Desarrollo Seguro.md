@@ -1,5 +1,3 @@
-
-# Desarrollo seguro
 #### Guía mínima de la seguridad web
 
 La visión del desarrollo de aplicaciones ha ido evolucionando, como era de esperar, hacia una normalidad divulgativa y facilitadora de conocimientos y adelantos. Hoy día el uso de servidores propios y componentes de terceros conocidos y confiables, han permitido a los profesionales de IT inspeccionar y controlar por sí mismos cualquier configuración. Sin embargo, pese a estas condiciones favorables, siguen viéndose abrumados ante la complejidad del entramado de redes. 
