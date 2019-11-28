@@ -1,5 +1,3 @@
-#### Guía mínima de la seguridad web
-
 La visión del desarrollo de aplicaciones ha ido evolucionando, como era de esperar, hacia una normalidad divulgativa y facilitadora de conocimientos y adelantos. Hoy día el uso de servidores propios y componentes de terceros conocidos y confiables, han permitido a los profesionales de IT inspeccionar y controlar por sí mismos cualquier configuración. Sin embargo, pese a estas condiciones favorables, siguen viéndose abrumados ante la complejidad del entramado de redes. 
 
 La carrera por el control del entorno de las redes de información, lleva a los profesionales de IT a demandar seguridad a los desarrolladores. Crear seguridad frente a una contra seguridad, carente de normas y por tanto capaz de avanzar a mayor velocidad. Puede parecer una batalla perdida, pero el reto no aquí no es el enfrentamiento en desventaja, sino la protección y la prevención.
