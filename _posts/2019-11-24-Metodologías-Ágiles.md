@@ -11,7 +11,7 @@ Un par enfoques de trabajo adaptados a Agile, como el desarrollo por caracterís
 ### CI. Continous integration. 
 Se refiere al desarrollo de prototipos funcionales que van incrementando su número de características a lo largo de distintas iteraciones (sprints). Este es un enfoque adaptativo, ya que las nuevas funcionalidades se adecuan al prototipo y a los cambios que va sufriendo a lo largo del proyecto. Un marco de trabajo que suele funcionar bien en el desarrollo a medida, donde la definición de requerimientos iniciales puede no ser muy precisa.
 
-Ciclo de vida
+Ciclo de vida CI
 1. Se toman requisitos para una versión inicial.
 2. Se desarrolla una versión inicial completamente funcional.
 3. Se testea cada versión funcional.
@@ -20,17 +20,16 @@ Ciclo de vida
 ### FDD. Feature-driven development. 
 Es un método de trabajo mediante características, donde se diseñan las distintas funcionalidades, se definen y se trabajan por separado. Este es un enfoque claramente predictivo, ya que permite planificar exactamente qué requerimientos se completan en un momento determinado. Suele encajar bien en fases de proyecto avanzadas, cuando las principales funcionalidades ya están desarrolladas y se apuesta por la mejora continua del producto. También puede utilizarse en desarrollos a medida en los que los requerimientos estén claramente definidos.
 
+Ciclo de vida FDD
 1. Se toman requisitos por cada característica.
 2. Se desarrollan características de forma independiente pero ordenada.
 3. Las características se testean por separado.
 4. Se despliegan conjuntos de características.
 
-Con independencia del enfoque utilizado, Agile ofrece una serie de herramientas o artefactos dirigidos a la normalización de requerimientos y características. Si se observa con detenimiento el ciclo de vida del desarrollo de software, es posible determinar cuáles de estos artefactos encajan en el marco de trabajo elegido.
-
-Pero en definitiva, algo que comparten todos los marcos de desarrollo, es que las versiones evolucionan añadiendo correcciones y nuevas características. Y aquí es dónde se encuentra la verdadera batalla de los desarrolladores. Ya que el aumento de características va ligado a un aumento de la hediondez del código y por tanto, a un aumento de la complejidad.
+Con independencia del enfoque utilizado, Agile ofrece una serie de herramientas o artefactos dirigidos a la normalización de requerimientos y características. Para ello, y siguiendo el ciclo de vida de cualquier desarrollo de software, es posible determinar qué artefactos encajan mejor en el marco de trabajo elegido. Pero en definitiva, algo que comparten todos los enfoques de desarrollo, es que las versiones evolucionan añadiendo correcciones y nuevas características. Y aquí es dónde se encuentra la verdadera batalla de los programadores. Donde el aumento de características va ligado a un aumento de la hediondez y la entropía en el código y por tanto, a un aumento de la complejidad.
 
  
-# Toma de Requisitos
+# El ciclo de vida
 
 La toma de requisitos es parte vertebral de cualquier proyecto de desarrollo de software, ya que facilita el negociado de las distintas funcionalidades que estarán presentes en el producto final. Existen multitud de métodos, pero todos conservan estructuras y procesos comunes para la identificación y descripción de características.
 
@@ -42,13 +41,13 @@ Básicamente, una toma de requisitos ha de contemplar las siguientes operaciones
 
 Los requerimientos o especificaciones de desarrollo se convierten a veces en un torrente difícil de canalizar. Para dirigirlos correctamente hacia un flujo de trabajo auto-organizado, se necesita una rápida respuesta de desarrollo y aligerar el peso de la documentación.
 
-# Planificación
+## Planificación
 
 Por regla general, las planificaciones y las grandes especificaciones iniciales de los proyectos, suelen producir gran cantidad de residuos que se traducen en una merma económica y técnica. Por esto, desde una visión Agile se considera de gran importancia el llamado salto de fe inicial, lo que significa que al inicio de un proyecto de desarrollo, se ha de desviar el foco de atención hacia el logro de mayor importancia. Esto puede traducirse como la búsqueda de mejores definiciones de los requerimientos o todo lo contrario, la del aseguramiento de la arquitectura para el entorno de despliegue deseado.
 
 Por otro lado, cabe destacar que toda planificación ha de reflejar, no sólo los tiempos de operación, sino también los de testeo y entrega. Y además, el equipo debe mantener un calendario de reuniones activo, una práctica que aporta salubridad al proyecto.
 
-# Desarrollo
+## Desarrollo
 
 El ciclo de vida de las metodologías ágiles de desarrollo tiene un carácter repetitivo, iterativo e incremental. Mediante prácticas como Scrum, Kanban, Lean o XP, se facilita el desarrollo de funcionalidades que son añadidas al producto durante repeticiones cortas, pero efectivas.
 
@@ -64,15 +63,15 @@ Adaptación occidental (<a href="https://procognita.com/post/mary-poppendieck-fo
 ### XP. 
 Extreme programming (<a href="https://es.wikipedia.org/wiki/Kent_Beck" target="_blank">Beck</a>) es un método que prima la adaptabilidad sobre todo. En la práctica, asume la variabilidad de los requerimientos y la ineludible existencia de errores, por lo que no presta atención a la documentación previa. En cambio, utiliza ciclos cortos de desarrollo y pruebas de aceptación, que van completando funcionalidades de manera continua. Promueve la programación entre pares, valorando la calidad del código escrito, por encima de la inmediata afectación a la productividad.
 
-# Pruebas
+## Pruebas
 
 Agile promueve una cultura de testeo, donde cada iteración pasa por un ciclo de prueba unitaria y cada entrega supera una fase de aceptación por parte del cliente. Sea cual sea el modelo de gestión, las distintas fases de testeo siempre tienen por objeto la corrección de todos los errores y la aceptación de las funcionalidades desarrolladas. Todo para tratar de conseguir un producto lo más robusto posible, en el menor tiempo posible.
 
-# Despliegue
+## Despliegue
 
 Este es el punto crítico de todo desarrollo, ya que la implantación en un cliente supone la mayoría de las veces, añadir restricciones al sistema. Estas restricciones producen nuevos evolutivos que, a veces generan sobrecostes. Por tanto, para salvar posibles cuellos de botella durante las operaciones de despliegue, conviene la práctica de metodologías como DevOps (<a href="https://es.wikipedia.org/wiki/DevOps" target="_blank">Wasna-Debois</a>), que posibilitan el entendimiento de los desarrolladores con los administradores de IT. Punto crucial para un desarrollo más productivo, ya que conseguir una infraestructura ágil donde desplegar el software con garantías de calidad y tiempo, libera más horas para la programación.
 
-# Mantenimiento
+## Mantenimiento
 
 Las operaciones de mantenimiento del software comienzan tras el paso a producción del producto, con el objetivo de alargar la vida útil de las aplicaciones. Agile distingue entre:
 
@@ -84,15 +83,14 @@ Las modificaciones correctivas y evolutivas llegan a demanda, como consecuencia 
 
 # Conclusiones
 
-Como filosofía de desarrollo de software, Agile impulsa el estudio de metodologías de trabajo aplicables a sus distintas fases: toma de requisitos, planificación, desarrollo, pruebas, despliegue y mantenimiento. La aplicación de estas metodologías implica la adopción de sus prácticas y el uso de sus artefactos, para diseñar un marco de gestión de proyectos a medida.
+Como filosofía de desarrollo de software, Agile impulsa el estudio de metodologías de trabajo aplicables a sus distintas fases: toma de requisitos, planificación, desarrollo, pruebas, despliegue y mantenimiento. En la práctica, implica la adopción de sus métodos y el uso de sus artefactos, a la hora de diseñar un marco de gestión de proyectos a medida.
 
-Una forma ágil de afrontar la gestión de un proyecto de desarrollo de software sería la siguiente:
+Una forma ágil de afrontar la gestión de un proyecto de desarrollo de software, sería la siguiente:
 
-* Elegir el enfoque de gestión adecuado a nuestro proyecto.
-* Realizar una planificación inicial abierta.
-* Determinar acertadamente el alcance de los requisitos a tomar.
-* Asegurar desde el principio el entorno de despliegue.
-* Decidir sobre la metodología de desarrollo a seguir.
-* Completar pruebas en cada iteración.
-* Diseñar y ejecutar las operaciones de despliegue de manera correcta.
-* Decidir la operativa para el sostenimiento de la vida útil del producto.
+* Elegir el **enfoque de gestión** adecuado.
+* Diseñar una **planificación inicial** abierta.
+* Asegurar el entorno y las **operaciones de despliegue**.
+* Analizar el **alcance de los requisitos** a tomar.
+* Programar siguiendo una **metodología de desarrollo**.
+* **Completar pruebas** en cada iteración.
+* Apostar por el sostenimiento de la **vida útil** del producto.
