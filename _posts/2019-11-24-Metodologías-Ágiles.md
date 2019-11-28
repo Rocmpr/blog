@@ -1,34 +1,33 @@
-Las metodologías ágiles de desarrollo de software son consecuencia directa de las grandes crisis del software de finales de los años 90. Entonces, los grupos de desarrolladores pusieron en común métodos y prácticas, con la intención de superar sus respectivas capacidades de trabajo. Una de estas iniciativas sentó las bases de un manifiesto por un desarrollo ágil del software (Agile). Desde entonces, universidad y empresa han actualizado progresivamente sus métodos, con el objetivo de desprenderse de procedimientos rígidos y adaptarse a los cambios que impone el avance tecnológico.
+Las metodologías ágiles son consecuencia directa de las grandes crisis del software de finales de los años 90. Entonces, los grupos de desarrolladores se vieron obligados a poner en común métodos y prácticas, con la intención de superar sus respectivas capacidades de trabajo. Y una de estas iniciativas sentó las bases del manifiesto por un desarrollo ágil del software (Agile). Desde entonces, universidad y empresa han actualizado progresivamente sus métodos en base a este paradigma, con el objetivo de desprenderse de procedimientos rígidos y adaptarse a los cambios que impone el avance tecnológico. 
 
-Hoy día se aplican metodologías ágiles en sectores muy diferentes de aquel que las originó. Es cierto que transmiten la idea de ser un conjunto de prácticas, capaces de llevar a éxito un proyecto en situaciones complejas o cambiantes. Como paradigma del desarrollo de software, sus métodos cubren todas las fases del ciclo de vida de un proyecto (requisitos, planificación, diseño, desarrollo, testeo e implementación), facilitando además la gestión de riesgos y la mejora continua. 
+Agile puede aplicarse a grupos pequeños, que normalmente responden bien a situaciones cambiantes y mantienen una cultura de respuesta frente a estas. Y también permite a grupos grandes, capaces de desarrollar un mayor número de funcionalidades, corregir su cultura de demanda y restricciones. Esto es posible gracias a que sus métodos cubren todas las fases del ciclo de vida de un proyecto: requisitos, planificación, diseño, desarrollo, testeo e implementación. 
 
-Agile puede aplicarse a grupos pequeños, que normalmente responden bien a situaciones cambiantes y mantienen una cultura de respuesta frente a estas. Y también permite a grupos grandes, capaces de desarrollar un mayor número de funcionalidades, corregir su cultura de demanda y restricciones. Esto es posible gracias a que las metodologías ágiles, ayudan a ajustar las prácticas y los artefactos más beneficiosos a cada terreno de acción. Conocer bien los métodos que abarcan sus diferentes marcos de trabajo, es vital para entender cómo y para qué sirve Agile.
+En conclusión, las metodologías ágiles ayudan a ajustar las prácticas y los artefactos más beneficiosos a cada terreno de acción. Por tanto, conocer bien las características de sus diferentes marcos de trabajo, es vital para entender cómo y para qué sirve Agile.
 
 # Una cuestión de enfoque
 
-Según el tipo de proyecto a gestionar, se pueden usar unos métodos u otros para facilitar la toma de requerimientos y mejorar la asimilación de cambios. Un par enfoques de trabajo adaptados con ayuda de Agile, como el desarrollo por características y la integración continua, son ejemplo suficiente de cómo pueden gestionarse proyectos de software con la ayuda de las metodologías ágiles.
+Un par enfoques de trabajo adaptados a Agile, como el desarrollo por características y la integración continua, son ejemplo suficiente de cómo pueden gestionarse proyectos de software con la ayuda de las metodologías ágiles.
 
 ### CI. Continous integration. 
 Se refiere al desarrollo de prototipos funcionales que van incrementando su número de características a lo largo de distintas iteraciones (sprints). Este es un enfoque adaptativo, ya que las nuevas funcionalidades se adecuan al prototipo y a los cambios que va sufriendo a lo largo del proyecto. Un marco de trabajo que suele funcionar bien en el desarrollo a medida, donde la definición de requerimientos iniciales puede no ser muy precisa.
 
-### FDD. Feature-driven development. 
-Es un método de trabajo mediante características, donde se diseñan las distintas funcionalidades, se definen y se trabajan por separado. Este es un enfoque claramente predictivo, ya que permite planificar exactamente qué requerimientos se completan en un momento determinado. Suele encajar bien en fases de proyecto avanzadas, cuando las principales funcionalidades ya están desarrolladas y se apuesta por la mejora continua del producto. También puede utilizarse en desarrollos a medida en los que los requerimientos estén claramente definidos.
-
-Con independencia del enfoque utilizado, Agile ofrece una serie de herramientas o artefactos dirigidos a la normalización de requerimientos y características. Si se observa con detenimiento el ciclo de vida del desarrollo de software, es posible determinar cuáles de estos artefactos encajan en el marco de trabajo elegido.
-
-### Desarrollo mediante características
-1. Se toman requisitos por cada característica.
-2. Se desarrollan características de forma independiente pero ordenada.
-3. Las características se testean por separado.
-4. Se despliegan conjuntos de características.
-
-### Integración continua
+Ciclo de vida
 1. Se toman requisitos para una versión inicial.
 2. Se desarrolla una versión inicial completamente funcional.
 3. Se testea cada versión funcional.
 4. Se despliega cada versión funcional.
 
-Algo que comparten todos los marcos de desarrollo, es que las versiones evolucionan añadiendo correcciones y nuevas características. Aquí es dónde se encuentra la verdadera batalla de los desarrolladores. Ya que el aumento de características va ligado a un aumento de la hediondez y por tanto, a un aumento de la complejidad. Entendiendo complejidad por dificultad técnica, no de tiempos o esfuerzos.
+### FDD. Feature-driven development. 
+Es un método de trabajo mediante características, donde se diseñan las distintas funcionalidades, se definen y se trabajan por separado. Este es un enfoque claramente predictivo, ya que permite planificar exactamente qué requerimientos se completan en un momento determinado. Suele encajar bien en fases de proyecto avanzadas, cuando las principales funcionalidades ya están desarrolladas y se apuesta por la mejora continua del producto. También puede utilizarse en desarrollos a medida en los que los requerimientos estén claramente definidos.
+
+1. Se toman requisitos por cada característica.
+2. Se desarrollan características de forma independiente pero ordenada.
+3. Las características se testean por separado.
+4. Se despliegan conjuntos de características.
+
+Con independencia del enfoque utilizado, Agile ofrece una serie de herramientas o artefactos dirigidos a la normalización de requerimientos y características. Si se observa con detenimiento el ciclo de vida del desarrollo de software, es posible determinar cuáles de estos artefactos encajan en el marco de trabajo elegido.
+
+Pero en definitiva, algo que comparten todos los marcos de desarrollo, es que las versiones evolucionan añadiendo correcciones y nuevas características. Y aquí es dónde se encuentra la verdadera batalla de los desarrolladores. Ya que el aumento de características va ligado a un aumento de la hediondez del código y por tanto, a un aumento de la complejidad.
 
  
 # Toma de Requisitos
