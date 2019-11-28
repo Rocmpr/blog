@@ -29,8 +29,14 @@ Ciclo de vida FDD
 # El ciclo de vida
 
 Con independencia del enfoque utilizado, Agile ofrece una serie de herramientas o artefactos dirigidos a la normalización de la información que generan los proyectos. Con estos medios y siguiendo el ciclo de vida de cualquier desarrollo de software, es posible determinar el mejor encaje para el marco de trabajo elegido. Pero en definitiva, algo que comparten todos los enfoques de desarrollo, es que las versiones evolucionan añadiendo correcciones y nuevas características. Y aquí es dónde se encuentra la verdadera batalla de los desarrolladores. Donde el aumento de características va ligado a un aumento de la hediondez y la entropía en el código y por tanto, a un aumento de la complejidad. Asimilar las prácticas y métodos adecuados al ciclo de vida de un proyecto de software, resulta fundamental, tanto para prevenir como para reducir riesgos. 
- 
+
 ## Planificación
+
+Por regla general, las planificaciones y las grandes especificaciones iniciales de los proyectos, suelen producir gran cantidad de residuos que se traducen en una merma económica y técnica. Por esto, desde una visión Agile se considera de gran importancia el llamado salto de fe inicial, lo que significa que al inicio de un proyecto de desarrollo, se ha de desviar el foco de atención hacia el logro de mayor importancia. Esto puede traducirse como la búsqueda de mejores definiciones de los requerimientos o todo lo contrario, la del aseguramiento de la arquitectura para el entorno de despliegue deseado.
+
+Por otro lado, cabe destacar que toda planificación ha de reflejar, no sólo los tiempos de operación, sino también los de testeo y entrega. Y además, el equipo debe mantener un calendario de reuniones activo, una práctica que aporta salubridad al proyecto.
+ 
+## Análisis
 
 La toma de requisitos es parte vertebral de cualquier proyecto de desarrollo de software, ya que facilita el negociado de las distintas funcionalidades que estarán presentes en el producto final. Existen multitud de métodos, pero todos conservan estructuras y procesos comunes para la identificación y descripción de características.
 
@@ -41,12 +47,6 @@ Básicamente, una toma de requisitos ha de contemplar las siguientes operaciones
 * Redacción de requerimientos funcionales.
 
 Los requerimientos o especificaciones de desarrollo se convierten a veces en un torrente difícil de canalizar. Para dirigirlos correctamente hacia un flujo de trabajo auto-organizado, se necesita una rápida respuesta de desarrollo y aligerar el peso de la documentación.
-
-## Planificación
-
-Por regla general, las planificaciones y las grandes especificaciones iniciales de los proyectos, suelen producir gran cantidad de residuos que se traducen en una merma económica y técnica. Por esto, desde una visión Agile se considera de gran importancia el llamado salto de fe inicial, lo que significa que al inicio de un proyecto de desarrollo, se ha de desviar el foco de atención hacia el logro de mayor importancia. Esto puede traducirse como la búsqueda de mejores definiciones de los requerimientos o todo lo contrario, la del aseguramiento de la arquitectura para el entorno de despliegue deseado.
-
-Por otro lado, cabe destacar que toda planificación ha de reflejar, no sólo los tiempos de operación, sino también los de testeo y entrega. Y además, el equipo debe mantener un calendario de reuniones activo, una práctica que aporta salubridad al proyecto.
 
 ## Desarrollo
 
