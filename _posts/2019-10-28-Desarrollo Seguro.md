@@ -8,5 +8,7 @@ La carrera por el control del entorno de las redes de información, lleva a los 
 
 ## Un vistazo al entorno
 
-Actualmente se han introducido en el desarrollo nuevas metodologías que priman la agilidad, la mejora continua y los criterios comunes, consiguiendo un aumento del rendimiento y de la capacidad para la asimilación de nuevas tecnologías. Todo internet son aplicaciones que aceptan solicitudes de información y recaban datos privados de los usuarios. Aplicaciones hospedadas en “infraestructuras sin esfuerzo” o servidores de instalación desatendida que no facilitan el control de las configuraciones. Aplicaciones que han evolucionado en torno a contenidos compartidos y código de terceros que se implementan en repositorios, por lo general abiertos, donde rara vez se presta atención a quienes los proporciona.
+La introducción de nuevas metodologías que priman la agilidad, la mejora continua y los criterios comunes, promueve el aumento del rendimiento y de la capacidad para la asimilación de nuevas tecnologías. Todo internet son aplicaciones que aceptan solicitudes de información y recaban datos privados de los usuarios. En muchos casos aplicaciones hospedadas en “infraestructuras sin esfuerzo” o servidores de instalación desatendida que no facilitan el control de las configuraciones. Aplicaciones que han evolucionado en torno a contenidos compartidos y código de terceros que se implementan en repositorios, por lo general abiertos, donde rara vez se presta atención a quienes los proporcionan. 
+
+Este entorno evoluciona al ritmo vertiginoso que marca el desarrollo de las necesidades del mercado. Un entorno que abruma a los equipos de seguridad encargados de controlarlo. 
 
