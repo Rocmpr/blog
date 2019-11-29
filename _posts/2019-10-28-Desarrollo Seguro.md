@@ -20,7 +20,7 @@ La propia protección de los usuarios y desarrolladores es el primer paso para c
 
 Ya que no existen soluciones globales, mantener una cultura de seguridad tanto en el ámbito privado como en el laboral, es fundamental para la auto-protección. Hay que tener muy claro que el mero hecho de tener acceso a información, nos convierte en objetivos convincentes.
 
-Un listado básico de pasos a dar para asegurarnos una buena auto-protección, sería el siguiente:
+Un listado básico de pasos a completar para asegurarnos una buena auto-protección, sería el siguiente:
 
 1.	Revisar lo que se está haciendo actualmente e identificar las actividades y procesos de riesgo, de cara a aplicar mecanismos que nos ayuden en su control.
 2.	Usar gestores de contraseñas de cara a estancar el acceso a los distintos sistemas bajo nuestro control, utilizando contraseñas complejas para cada servicio.
