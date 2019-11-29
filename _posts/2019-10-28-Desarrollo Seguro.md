@@ -8,4 +8,9 @@ Como elemento de necesidad, destaca el programar la seguridad desde el corazón 
 
 ## Reconocer al enemigo
 
-Comprender el delito informático resulta esencial de cara a la protección de datos valiosos, sobre todo cuando estos datos involucran a individuos, organizaciones o asuntos económicos. El delito se ha profesionalizado y ha multiplicado los motivos para _hackear_ redes. En el soborno, el fraude de identidad o de tarjetas de crédito, se encuentran las ganancias financieras del asunto; en la guerra por el control de la información, el mercado o los territorios, se encuentran otras ganancias, en su mayoría políticas. 
+Comprender el delito informático resulta esencial de cara a la protección de datos valiosos, sobre todo cuando estos datos involucran a individuos, organizaciones o asuntos económicos. El delito se ha profesionalizado y ha multiplicado los motivos para _hackear_ redes. El soborno, el fraude de identidad o de tarjetas de crédito, el mercado negro, la guerra por el control de la información, el mercado o los territorios. Generan ilegalmente ganancias materiales, políticas y sociales.
+
+Los delincuentes suelen usar el producto de los ataques para para sí mismos o  para venderlo con aparente impunidad en la web profunda, donde simplemente, se pierde trazabilidad. Los expertos de seguridad no conocen los métodos que se usan para infiltrarse en las redes de computadoras, pero si conocen que el 80% de las causas más comunes afectan a las bases de datos (_hijacking, injections_), al tránsito de la información (_phishing, pharming, DoS_) o al servicio de código malicioso (_malversiting_); mientras que el 20% restantes tienen que ver con el acceso físico a las computadoras. En dos palabras **hacking** y **leaking**.
+
+
+
