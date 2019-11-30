@@ -47,6 +47,6 @@ Unos criterios básicos de codificación segura son la base para crear aplicacio
 
 Una última práctica a tener en cuenta es el seguimiento de vulnerabilidades. Lo que nos ayudará a asimilar e implementar estándares de seguridad para disminuir riesgos conocidos. Organizaciones como OWASP y CAPEC sirven perfectamente a sus cometidos de promover el conocimiento de los problemas y defectos que pueden afectar a nuestras aplicaciones. Aunque no todos los patrones pueden reproducirse o catalogarse, es conveniente la consulta periódica de las publicaciones que puedan afectarnos, ya que avisan de defectos que pueden aprovechar terceros. 
 
-La seguridad de las aplicaciones no es un producto que pueda comprarse. Es más bien una cultura que hay adoptar y promover. Hay que programa seguror y alegrarse de la buena suerte.
+La seguridad de las aplicaciones no es un producto que pueda comprarse. Es más bien una cultura que hay adoptar y promover. Hay que programar seguro y alegrarse de la buena suerte.
 
 
