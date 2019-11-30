@@ -4,7 +4,7 @@ La carrera por el control de las redes de información, lleva a los profesionale
 
 Todo internet son aplicaciones que aceptan o envían solicitudes de información y recaban datos privados de los usuarios. En muchos casos, aplicaciones hospedadas en _infraestructuras sin esfuerzo_ o servidores de _instalación desatendida_ que no facilitan el control de las configuraciones. Aplicaciones que han evolucionado gracias a contenidos compartidos y código de terceros.  Desplegadas en repositorios, por lo general abiertos, donde rara vez se presta atención a quienes los proporcionan. Así que nos movemos a diario en un medio digital expuesto a la _ejecución de código desconocido_, a veces de manera inevitable y otras de manera superflua.
 
-Como elemento de necesidad, destaca el programar la seguridad desde el corazón de las aplicaciones. Equiparándola en importancia con elementos deseables. Como la compatibilidad entre aplicaciones y dispositivos, diseño, funcionalidades y tiempos de carga. La seguridad como aspecto inseparable de la calidad.
+Como elemento de necesidad, destaca la programación de la seguridad desde el corazón de las aplicaciones. Equiparándola en importancia con elementos deseables. Como la compatibilidad entre aplicaciones y dispositivos, diseño, funcionalidades y tiempos de carga. La seguridad como aspecto inseparable de la calidad.
 
 ## Reconocer al enemigo
 
@@ -22,30 +22,31 @@ Ya que no existen soluciones globales, mantener una cultura de seguridad tanto e
 
 Un listado básico de pasos a completar para asegurarnos una buena auto-protección, sería el siguiente:
 
-1.	Revisar lo que se está haciendo actualmente e identificar las actividades y procesos de riesgo, de cara a aplicar mecanismos que nos ayuden en su control.
-2.	Usar gestores de contraseñas de cara a estancar el acceso a los distintos sistemas bajo nuestro control, utilizando contraseñas complejas para cada servicio.
-3.	Asegurar y mantener las máquinas con las que se trabaja, usando como mínimo un antivirus, un anti-malware y un limpiador de registro.
-4.	Protegerse contra la exposición en redes y la ingeniería social, mediante campañas de revisión de la privacidad y el análisis de presencia.
-5.	Establecer protocolos para la instalación de software de terceros, ya sea para uso propio o en el desarrollo. 
-6.	Usar herramientas de acceso seguro a internet, con sesiones privadas y conexiones seguras.
+*	Revisar lo que se está haciendo actualmente e identificar las actividades y procesos de riesgo, de cara a aplicar mecanismos que nos ayuden en su control.
+*	Usar gestores de contraseñas y estancar el acceso a los distintos sistemas bajo nuestro control, utilizando contraseñas complejas para cada servicio.
+*	Asegurar y mantener las máquinas con las que se trabaja, usando como mínimo un antivirus, un anti-malware y un limpiador de registro.
+*	Protegerse contra la exposición en redes y la ingeniería social, mediante campañas de revisión de la privacidad y el análisis de presencia.
+*	Establecer protocolos para la instalación de software de terceros, ya sea para uso propio o en el desarrollo. 
+*	Usar herramientas de acceso seguro a internet, con sesiones privadas y conexiones seguras.
 
 ## Programar seguro
 
 Unos criterios básicos de codificación segura son la base para crear aplicaciones autoprotegidas. Es preferible que se programe usando una convención de código propia y que se tengan en cuenta las siguientes recomendaciones:
 
-1.	Utilizar autenticación de doble factor (A2F) y tratar de sustituir la seguridad de autenticación del código por capas de servicio intermedias o middleware.
-2.	No utilizar código de terceros si no podemos asegurar que ejecutan procesos confiables.
-3.	Utilizar seguridad basada en roles que ayude a aplicar directivas.
-4.	Establecer capas de control de permisos como filtros previos a la ejecución de código en general.
-5.	No abusar de almacenamiento en variables públicas o limitarlo a datos no confidenciales.
-6.	Controlar todos los inputs/outputs de usuario, así como el acceso de estos a recursos (URL, uploads, etc.)
-7.	Utilizar métodos de criptografía internos para la información de persistencia.
-8.	Utilizar cifrado de conexiones a bases de datos.
-9.	Utilizar include de archivos de código cliente en lugar de escribirlo directamente.
-10.	No escribir datos de usuario en código que no forme parte del ensamblado.
+*	Utilizar autenticación de doble factor (A2F) y tratar de sustituir la seguridad de autenticación del código por capas de servicio intermedias o middleware.
+*	No utilizar código de terceros si no podemos asegurar que se ejecutan procesos confiables.
+*	Facilitar la aplicación de directivas y utilizar seguridad basada en roles o permisos.
+*	Establecer capas de control de permisos como filtros previos a la ejecución de código en general.
+*	No abusar de almacenamiento en variables públicas o limitarlo a datos no confidenciales.
+*	Controlar todos los inputs/outputs de usuario, así como el acceso de estos a recursos (URL, uploads, etc.)
+*	Utilizar métodos de criptografía internos para la información de persistencia.
+*	Utilizar cifrado de conexiones a bases de datos.
+*	Utilizar include de archivos de código cliente en lugar de escribirlo directamente.
+*	No escribir datos de usuario en código que no forme parte del ensamblado.
+*	Publicar código a través de protocolos seguros de comunicación.
 
-Con esto podemos escribir y compilar código autoprotegido, pero las aplicaciones son elementos de servicio que envían y reciben solicitudes, por lo que las comunicaciones han de estar cifradas mediante protocolos seguros. 
+Una última práctica a tener en cuenta es el seguimiento de vulnerabilidades. Lo que nos ayudará a asimilar e implementar estándares de seguridad para disminuir riesgos conocidos. Organizaciones como OWASP y CAPEC sirven perfectamente a sus cometidos de promover el conocimiento de los problemas y defectos que pueden afectar a nuestras aplicaciones. Aunque no todos los patrones pueden reproducirse o catalogarse, es conveniente la consulta periódica de las publicaciones que puedan afectarnos, ya que avisan de defectos que pueden aprovechar terceros. 
 
-Una última práctica a tener en cuenta es el seguimiento de vulnerabilidades, que nos ayudará a asimilar e implementar estándares de seguridad para disminuir riesgos conocidos. Organizaciones como OWASP y CAPEC sirven perfectamente a sus cometidos de promover el conocimiento de los problemas y defectos que pueden afectar a nuestras aplicaciones. Aunque no todos los patrones pueden reproducirse o catalogarse, es conveniente la consulta periódica de las publicaciones que puedan afectarnos, ya que avisan de defectos que pueden aprovechar terceros. Aunque la seguridad de las aplicaciones no es un producto que pueda comprarse, más bien una cultura que hay adoptar y promover. Programa seguro y buena suerte.
+La seguridad de las aplicaciones no es un producto que pueda comprarse. Es más bien una cultura que hay adoptar y promover. Hay que programa seguror y alegrarse de la buena suerte.
 
 
