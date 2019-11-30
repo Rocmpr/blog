@@ -7,9 +7,10 @@
             </svg>
         </div>
     </a>
-<!--     <ul>
-      <li><a href="{{ site.baseurl }}/index.html"><h2 class="nav-title">Categoría: Desarrollo</h2></a></li>
-      <li><a href="{{ site.baseurl }}/">Seguridad</a></li>
-    </ul> -->
+    {% if layout.post %}
+
+    <a href="{{ site.baseurl }}/index.html"><h2 class="nav-title">Índice</h2></a></li>
+
+    {% endif %}
   </div>
 </nav>
