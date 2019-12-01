@@ -1,7 +1,7 @@
 ﻿# Site settings
 title:          "A .Net Apart"
 description:    "a simple blog"
-baseurl:        "/blog_desarrollo"
+baseurl:        "/blog"
 url:            "https://rocmpr.github.io"
 
 # Google Analytics
