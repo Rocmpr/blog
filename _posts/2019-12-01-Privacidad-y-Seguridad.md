@@ -1,5 +1,6 @@
-![Placeholder image](https://rocmpr.github.io/blog_desarrollo/assets/img/Sec001.jpg "Placeholder image")
-[Anteriormente](https://rocmpr.github.io/blog_desarrollo/2019-10-28/Desarrollo-Seguro) he manifestado la importancia de la protección personal como parte de la cultura de la seguridad. Es conveniente aquí, repasar las recomendaciones sobre auto-protección.
+![Placeholder image](https://rocmpr.github.io/blog/assets/img/Sec001.jpg "Placeholder image")
+
+Dando por sentada la importancia de la [protección personal](https://rocmpr.github.io/blog/2019-10-28/Desarrollo-Seguro) como parte de la cultura de la seguridad, es conveniente repasar las recomendaciones sobre auto-protección.
 
 ## Una revisión de seguridad
 
