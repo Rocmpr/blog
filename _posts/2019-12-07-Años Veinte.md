@@ -1,4 +1,4 @@
-#Los años veinte de la seguridad cibernética
+# Los años veinte de la seguridad cibernética
 
 Durante 2020 se alcanzarán los 50 millones de conexiones a internet. Ni siquiera un 50% accederá en todo momento mediante protocolos de transferencia segura. Estos datos ponen de manifiesto la inseguridad frente a los accesos no deseados, a la información que manejamos en la red. Dependemos del uso de navegadores seguros, pero también del acceso a conexiones y transacciones seguras. Además, entramos en una nueva década, entre promesas de avance tecnológico y amenazas de recesión socioeconómica y medioambiental. 
 Consideraciones aparte, cuando estos marcadores se devalúan y entran en riesgo, todo se degrada. De hecho, en los últimos años se han registrado en el imaginario colectivo, los mayores ataques cibernéticos conocidos hasta el momento. Delitos que se han convertido en algo cotidiano para las grandes organizaciones públicas y privadas. 
