@@ -9,7 +9,7 @@ layout: default
 
       <time datetime="{{ post.date }}" class="catalogue-time">
        <!-- Whitespace added for readability -->
-        {% assign m = page.date | date: "%-m" %}
+        {% assign m = post.date | date: "%-m" %}
         {% case m %}
           {% when '1' %}Ene
           {% when '2' %}Feb
@@ -24,7 +24,7 @@ layout: default
           {% when '11' %}Nov
           {% when '12' %}Dec
         {% endcase %}
-        {{ page.date | date: "%Y" }}
+        {{ post.date | date: "%Y" }}
       </time>
 
         <h1 class="catalogue-title">{{ post.title }}</h1>
