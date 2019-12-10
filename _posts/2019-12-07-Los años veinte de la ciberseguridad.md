@@ -78,4 +78,5 @@ Pero, ¿qué podemos hacer? El primero de todos los pasos a dar, tiene que ver c
 <br>
 [ghostproject](https://ghostproject.fr/){:target="_blank"}
 <br>
+<br>
 Buena suerte. 
