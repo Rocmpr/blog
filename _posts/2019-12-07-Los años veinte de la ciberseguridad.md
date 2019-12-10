@@ -72,10 +72,10 @@ Los años veinte de la ciberseguridad se presentan duros. Todo hace pensar que l
 
 Pero, ¿qué podemos hacer? El primero de todos los pasos a dar, tiene que ver con la concienciación. Un buen ejercicio es el de verificar si alguno de nuestros emails se ha visto involucrado en una brecha de datos conocida hasta la fecha. Esto puede probarse a través de servicios gratuitos como los siguientes:
 
-[haveibeenpwned](https://haveibeenpwned.com/)
+[haveibeenpwned](https://haveibeenpwned.com/){:target="_blank"}
 <br>
-[inoitsu](https://www.hotsheet.com/inoitsu/)
+[inoitsu](https://www.hotsheet.com/inoitsu/){:target="_blank"}
 <br>
-[ghostproject](https://ghostproject.fr/)
-
+[ghostproject](https://ghostproject.fr/){:target="_blank"}
+<br>
 Buena suerte. 
