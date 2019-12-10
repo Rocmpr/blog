@@ -6,9 +6,6 @@ layout: default
   {% for post in paginator.posts %}
     <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
       <div>
-        
-            {% if page.date %}
-      <br>
 
       <time datetime="{{ page.date }}">
        <!-- Whitespace added for readability -->
@@ -29,9 +26,7 @@ layout: default
     {% endcase %}
     {{ page.date | date: "%Y" }}
       </time>
- 
-      
-    {% endif %}
+
         <h1 class="catalogue-title">{{ post.title }}</h1>
         <div class="catalogue-line"></div>
 
