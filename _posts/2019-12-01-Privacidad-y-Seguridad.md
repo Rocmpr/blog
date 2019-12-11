@@ -1,4 +1,4 @@
-![Placeholder image](https://rocmpr.github.io/blog/assets/img/Sec001.jpg "Placeholder image")
+![Placeholder image](https://rocmpr.github.io/blog/assets/img/Sec001.jpg "Privacidad y Seguridad")
 
 Dando por sentada la importancia de la [protección personal](https://rocmpr.github.io/blog/2019-10-28/Desarrollo-Seguro) como parte de la cultura de la seguridad, es conveniente repasar las recomendaciones sobre auto-protección.
 
@@ -15,4 +15,6 @@ _¿Cuántos dispositivos tienes conectados a la red?_ Para el común de los usua
 El robo de credenciales a compañías prestadoras de servicios (Yahoo, Google, Facebook, etc.) pone de relieve la falta de control que tiene el usuario final sobre sus cuentas. Aquí no funciona la seguridad pasiva, ya que el usuario no posee la propiedad de la gestión del entorno donde se manejan sus datos. Si estas compañías pierden sus cuentas, también las perdemos nosotros, los usuarios. Estamos expuestos, pero es difícil abstenerse del uso de las redes sociales y de las aplicaciones móviles de comunicación y juegos, por tanto, es necesario protegerse contra la **exposición en redes y la ingeniería social**. En el mismo sentido, si las aplicaciones web llamadas **buscadores, redes sociales, chats, navegadores y juegos**, entre otras, registran toda la información que necesitan. Y además, el uso que hacen de ella no es de dominio público, entonces el usuario debe asumir el control de los datos que comparte. En la medida de nuestras posibilidades, podemos activar protocolos para el uso de servicios de terceros, ya sea para uso propio o profesional.
 
 Con todo esto y mediando el uso de navegadores que permitan el acceso internet de manera segura, privada o cifrada, no habremos alcanzado la invulnerabilidad, ni mucho menos. Pero habremos desaparecido de la lista de los más expuestos. Trabajaremos con garantías básicas de seguridad y disfrutaremos de las redes medianamente protegidos.
+
+![Placeholder image](https://rocmpr.github.io/blog/assets/img/Sec002.jpg "Privacidad y Seguridad")
 
