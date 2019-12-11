@@ -1,3 +1,5 @@
+![Placeholder image](https://rocmpr.github.io/blog/assets/img/Cib2020001.jpg "Ciberseguridad 2020")
+
 Durante 2020 se alcanzarán los 50 millones de conexiones a internet. Ni siquiera el 50% accederá en todo momento mediante protocolos de transferencia segura. Estos datos ponen de manifiesto la inseguridad frente a los accesos no deseados a la información que manejamos en la red. Dependemos del uso de navegadores seguros, pero también del acceso a conexiones y transacciones seguras. Además, entramos en una nueva década, entre promesas de avance tecnológico y amenazas de recesión socioeconómica y medioambiental. Consideraciones aparte, cuando estos marcadores se devalúan y entran en riesgo, todo se degrada. De hecho, en los últimos años se han registrado en el imaginario colectivo, los mayores ataques cibernéticos conocidos hasta el momento. Delitos que se han convertido en algo cotidiano para las grandes organizaciones públicas y privadas.
 
 Para hacerse una idea de la amenaza, conviene darse un paseo por la siguiente lista de los sucesos ciberdelictivos más relevantes de los últimos años. 
@@ -30,7 +32,7 @@ Y sin ir más lejos, el pasado Noviembre, [varias empresas españolas](https://w
 
 Con este historial podemos esperar que el año 2019 acabe con alguna sorpresa a escala. Esperemos que no, pero sin bajar la guardia, pues aún nos movemos con la inercia de estos últimos años. 
 
-[img]
+![Placeholder image](https://rocmpr.github.io/blog/assets/img/Cib2020002.jpg "Ciberseguridad 2020")
 
 ## ¿Cómo sucede todo esto?
 
