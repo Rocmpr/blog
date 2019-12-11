@@ -1,10 +1,8 @@
 ![Placeholder image](https://rocmpr.github.io/blog/assets/img/Sec001.jpg "Privacidad y Seguridad")
 
-Dando por sentada la importancia de la [protección personal](https://rocmpr.github.io/blog/2019-10-28/Desarrollo-Seguro) como parte de la cultura de la seguridad, es conveniente repasar las recomendaciones sobre auto-protección.
+Dando por sentada la importancia de la [protección personal](https://rocmpr.github.io/blog/2019-10-28/Desarrollo-Seguro) como parte de la cultura de la seguridad, lo conveniente es modificar hábitos y seguir unas recomendaciones básicas sobre auto-protección.
 
-## Una revisión de seguridad
-
-Identificar las actividades y los procesos de riesgo que llevamos a cabo a diario, nos permitirá aplicar mecanismos de control que reduzcan su peligrosidad.
+Cada uno debería identificar las actividades y los procesos de riesgo que lleva a cabo a diario. Valorar la importancia de estos en su vida. Y si no puede prescindir de lo innecesario, al menos conocer mecanismos de control que ayuden a reducir su peligrosidad.
 
 Pero _¿Qué es peligroso?_ Una buena pregunta que podemos hacernos de cara a identificar riesgos sería: _¿Qué actividades de riesgo llevo a cabo?_ Por ejemplo, utilizar **dispositivos de almacenamiento portables**, como discos, memorias, etc. donde el riesgo reside en la posibilidad de pérdida o sustracción. No podemos impedir que esto suceda, incluso si los llevásemos atados o insertados en el cuerpo (un tema del que hablar en otro momento). Pero sí podemos impedir su lectura, al menos en la medida de nuestras capacidades. Podemos encriptar los dispositivos.
 
