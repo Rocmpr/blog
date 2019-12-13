@@ -1,5 +1,5 @@
-# La Cultura de la Ciberseguridad
-## Introducción a los patrones de ataque
+## La Cultura de la Ciberseguridad
+### Introducción a los patrones de ataque
 
 Tener un conocimiento básico acerca de la operativa de los atacantes es fundamental a la hora de diseñar estrategias de ciberseguridad. Analistas, desarrolladores, formadores y personal de IT necesitan comprender cómo funcionan los ataques más conocidos, para afianzar la cultura de la seguridad y mejorar el control de sus entornos de influencia.
 
