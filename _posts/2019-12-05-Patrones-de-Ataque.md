@@ -11,12 +11,12 @@ Las principales bases de datos públicas, que sirven información sobre patrones
 
 Ahora bien, los patrones de ataque son únicamente una herramienta divulgativa. Forman parte de una serie de principios básicos de la llamada Cultura de la Ciberseguridad, entre los que destacan: 
 
->	Educar y concienciar en materia de ciberseguridad.
->	Diseñar artefactos para la definición de amenazas conocidas.
->	Analizar el impacto de los riesgos identificados.
->	Actualizar continuamente los controles sobre las actividades de riesgo.
->	Ejecutar pruebas de ataque o pentesting.
->	Investigar las tendencias de ataque.
->	Orientar la aplicación de estos principios en función de los daños sufridos.
+*	Educar y concienciar en materia de ciberseguridad.
+*	Diseñar artefactos para la definición de amenazas conocidas.
+*	Analizar el impacto de los riesgos identificados.
+*	Actualizar continuamente los controles sobre las actividades de riesgo.
+*	Ejecutar pruebas de ataque o pentesting.
+*	Investigar las tendencias de ataque.
+*	Orientar la aplicación de estos principios en función de los daños sufridos.
 
 El seguimiento certero de estos principios puede ayudar a nivelar la balanza en favor de los atacados. Pero hay que tener en cuenta, que son de aplicación a nivel de defensa de las arquitecturas, no a nivel personal. La protección de los usuarios, se basa en la observación de las actividades cibernéticas de cada individuo o conjunto de individuos.
