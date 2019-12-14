@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Acerca de Rocmpr"
+title: "Hola"
 permalink: /about/
 ---
 {% highlight markdown %}
