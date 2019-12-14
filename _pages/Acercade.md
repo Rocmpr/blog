@@ -4,4 +4,4 @@ title: "About"
 permalink: /about/
 ---
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+> Mi nombre es Roberto. Soy desarrollador de software y trabajo liderando un equipo de programadores, cuando me dejan. 
