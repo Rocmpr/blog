@@ -6,8 +6,10 @@ layout: default
 <div class="catalogue">
 
     <!-- HTML elements for search -->
+    {% if paginator.page == 1 %}
   <input type="text" id="search-input" placeholder="Buscar..">
   <ul id="results-container"></ul>
+    {% endif %}
 
   {% for post in paginator.posts %}
     <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
@@ -55,16 +57,4 @@ layout: default
 
   <span>{{ paginator.page }}</span>
 </div>
-<script type="text/javascript" src="assets/js/simple-jekyll-search.js"></script>
-    <script type="text/javascript">
-      SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        json: '/blog/search.json',
-        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
-        noResultsText: 'No se encontraron artículos relacionados con sus criterios de búsqueda.',
-        limit: 10,
-        fuzzy: false,
-        exclude: ['Welcome']
-      })
-    </script>
+
