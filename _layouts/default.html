@@ -4,6 +4,10 @@
   {% include head.html %}
 
   <body>
+  	<!-- HTML elements for search -->
+	<input type="text" id="search-input" placeholder="Search blog posts..">
+	<ul id="results-container"></ul>
+	<br>
 
     {% include navigation.html %}
 
@@ -13,4 +17,16 @@
 
     {% include footer.html %}
   </body>
+
+<!-- or without installing anything -->
+<script src="assets/js/simple-jekyll-search.js"></script>
+<script>
+	var sjs = SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/blog/search.json'
+})
+</script>
+
+
 </html>
