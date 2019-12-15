@@ -9,7 +9,7 @@ layout: default
   <input type="text" id="search-input" placeholder="Buscar..">
   <ul id="results-container"></ul>
 
-  {% for post in paginator.posts %}
+  {% for post in site.posts %}
     <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
       <div>
 
