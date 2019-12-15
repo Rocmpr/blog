@@ -56,3 +56,16 @@ layout: default
   <span>{{ paginator.page }}</span>
 </div>
 
+  <script type="text/javascript" src="assets/js/simple-jekyll-search.js"></script>
+    <script type="text/javascript">
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/blog/search.json',
+        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+        noResultsText: 'No se encontraron artículos relacionados con sus criterios de búsqueda.',
+        limit: 10,
+        fuzzy: false,
+        exclude: ['Welcome']
+      })
+    </script>
