@@ -10,17 +10,17 @@ Mi nombre es Roberto Campos y soy desarrollador de software. Me encargo de la ge
 
 Escribo aquí porque concibo la escritura como un entrenamiento de la memoria y la capacidad analítica. Y creo que la producción de este pasatiempo, puede aprovecharse para apoyar la cultura de las buenas prácticas en el desarrollo de aplicaciones y la ciberseguridad. Ahora bien, alcanzando o no este fin, utilizo este sitio para testar diseños, estilos y pequeños desarrollos.
 
-Este sitio y todo su contenido está disponible de forma gratuita.
+* Este sitio y todo su contenido está disponible de forma gratuita.
 
-No se utilizan elementos de seguimiento intrusivo ni recopilación de datos personales. Su privacidad es importante para mí.
+* No se utilizan elementos de seguimiento intrusivo ni recopilación de datos personales. Su privacidad es importante para mí.
 
-No se incluyen anuncios ni publicaciones patrocinadas. No intento venderle nada.
+* No se incluyen anuncios ni publicaciones patrocinadas. No intento venderle nada.
 
-No utilizo scripts externos ni recursos de terceros. 
+* No utilizo scripts externos ni recursos de terceros. 
 
-El sitio está albergado en un servidor 100% gratuito y todos los recursos consumidos en su desarrollo son 100% gratuitos.
+* El sitio está albergado en un servidor 100% gratuito y todos los recursos consumidos en su desarrollo son 100% gratuitos.
 
-Ante cualquier evento de seguridad, el sitio está preparado para volver a desplegarse en cuestión de minutos.
+* Ante cualquier evento de seguridad, el sitio está preparado para volver a desplegarse en cuestión de minutos.
 
 
 
