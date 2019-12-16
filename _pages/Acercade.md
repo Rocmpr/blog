@@ -4,10 +4,27 @@ title: "Hola"
 permalink: /about/
 ---
 
-Mi nombre es Roberto Campos y soy desarrollador de software. Me encargo de la gestión de proyectos en una empresa dedicada al desarrollo de software para la minería, la ingeniería química y la industria. Actualmente inmerso en proyectos relacionados con el buen gobierno y la gestión de riesgos en las organizaciones. Con anterioridad he participado en el desarrollo de software aplicado a diferentes sectores, como la ingeniería civil, la ciberseguridad, la medicina o la psicopedagogía. Para saber más acerca de mi currículum, acceder a mi perfil de [linkedin](https://www.linkedin.com/in/camposroberto/).
+Mi nombre es Roberto Campos y soy desarrollador de software. Me encargo de la gestión de proyectos en una empresa dedicada al desarrollo de software para la minería, la ingeniería química y la industria. Actualmente trabajo en proyectos relacionados con el buen gobierno y la gestión de riesgos en las organizaciones. Con anterioridad he participado en el desarrollo de software aplicado a diferentes sectores, como la ingeniería civil, la ciberseguridad, la inteligencia artificial, la psicopedagogía o la medicina. Para saber más acerca de mi currículum, acceder a mi perfil de [linkedin](https://www.linkedin.com/in/camposroberto/).
 
-Aquí no se venden formulas mágicas o promesas vacías. Las redes sociales son un buen sitio donde encontrar eso. 
+### Ética y Privacidad
 
-Este sitio web y su contenido están disponibles de forma completamente gratuita.
+Escribo aquí porque concibo la escritura como un entrenamiento de la memoria y la capacidad analítica. Y creo que la producción de este pasatiempo, puede aprovecharse para apoyar la cultura de las buenas prácticas en el desarrollo de aplicaciones y la ciberseguridad. Ahora bien, alcanzando o no este fin, utilizo este sitio para testar diseños, estilos y pequeños desarrollos.
 
-Escribo aquí por varias razones. La primera es que concibo la escritura como un entrenamiento de la memoria y la capacidad analítica, que me ayuda a cristalizar pensamientos en ideas. Por otro lado, el diseñar y mantener un sitio web donde testar código relacionado con la estética y la accesibilidad web, es para mi un pasatiempo. Y por último, creo que la producción de este pasatiempo, puede aprovecharse para apoyar la cultura de las buenas prácticas en el desarrollo de aplicaciones y la ciberseguridad.
+Este sitio y todo su contenido está disponible de forma gratuita.
+
+No se utilizan elementos de seguimiento intrusivo ni recopilación de datos personales. Su privacidad es importante para mí.
+
+No se incluyen anuncios ni publicaciones patrocinadas. No intento venderle nada.
+
+No utilizo scripts externos ni recursos de terceros. 
+
+El sitio está albergado en un servidor 100% gratuito y todos los recursos consumidos en su desarrollo son 100% gratuitos.
+
+Ante cualquier evento de seguridad, el sitio está preparado para volver a desplegarse en cuestión de minutos.
+
+
+
+
+
+
+
