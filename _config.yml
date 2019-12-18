@@ -39,6 +39,7 @@ exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
 # Disqus (Set to your disqus id)
 disqus:         rocmpr
+url: https://rocmpr.github.io/blog/
 
 defaults:
   -
