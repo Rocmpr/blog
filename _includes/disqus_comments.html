@@ -4,7 +4,7 @@
       // Here is an example,
       // this.page.url = "https://poanchen.github.io/blog/2017/07/27/how-to-add-disqus-to-your-jekyll-site";
       this.page.url = "https://rocmpr.github.io/blog/{{ page.url }}";
-      this.page.identifier = "{{ page.url }}";
+      this.page.identifier = {{ site.disqus.shortname }}';
     };
 
     // You should be able to get the following lines of code from your Disqus admin.
